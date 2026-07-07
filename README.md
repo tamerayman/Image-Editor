@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-A lightweight browser-based image editor built with vanilla JavaScript that allows users to apply real-time image adjustments and filters directly in the browser without uploading images to any server.
+A lightweight browser-based image editor built with vanilla JavaScript that allows users to apply real-time image adjustments and visual effects directly in the browser using native CSS filter functions.
 </p>
 
 <p align="center">
@@ -14,9 +14,9 @@ A lightweight browser-based image editor built with vanilla JavaScript that allo
 
 <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 
-<img src="https://img.shields.io/badge/Canvas-Image_Processing-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/CSS-Filters-success?style=for-the-badge"/>
 
-<img src="https://img.shields.io/badge/Real_Time-Filters-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Real_Time-Image_Editing-orange?style=for-the-badge"/>
 
 <img src="https://img.shields.io/badge/Responsive-UI-blue?style=for-the-badge"/>
 
@@ -28,7 +28,7 @@ A lightweight browser-based image editor built with vanilla JavaScript that allo
 
 Image Editor is a browser-based image editing application developed using HTML, CSS, and vanilla JavaScript.
 
-The application performs all image processing directly in the browser, allowing users to upload images, apply multiple visual adjustments in real time, preview the results instantly, and download the edited image without relying on any external libraries or backend services.
+The application applies image adjustments in real time using native CSS filter functions, allowing users to upload images, preview visual changes instantly, reset edits, and download the final result without relying on external libraries or backend services.
 
 ---
 
@@ -37,7 +37,7 @@ The application performs all image processing directly in the browser, allowing 
 | Feature | Description |
 |----------|-------------|
 | 📤 Image Upload | Import images from the local device |
-| 🎨 Real-Time Editing | Apply filters with instant preview |
+| 🎨 Real-Time Editing | Apply visual adjustments with instant preview |
 | ☀ Brightness | Adjust image brightness |
 | 🌗 Contrast | Modify image contrast |
 | 🌈 Saturation | Control color intensity |
@@ -52,20 +52,20 @@ The application performs all image processing directly in the browser, allowing 
 
 # 🏗 Processing Flow
 
-```
+```text
 User Uploads Image
 
         │
 
         ▼
 
-Display Original Image
+Preview Image
 
         │
 
         ▼
 
-Apply CSS Filters
+Apply CSS Filter Functions
 
         │
 
@@ -90,15 +90,15 @@ Download Edited Image
 
 - JavaScript (ES6)
 
-- CSS Filters
+- CSS Filter Functions
 
-- Canvas API (if used)
+- File API
 
 ---
 
 # 📂 Project Structure
 
-```
+```text
 project/
 
  index.html
@@ -120,13 +120,13 @@ Clone the repository
 git clone https://github.com/tamerayman/Image-Editor.git
 ```
 
-Open
+Open the project
 
-```
+```text
 index.html
 ```
 
-Upload an image, edit it, then download the final result.
+Upload an image, apply the desired filters, then download the edited result.
 
 ---
 
@@ -142,10 +142,11 @@ Upload an image, edit it, then download the final result.
 
 - DOM Manipulation
 - JavaScript Event Handling
+- CSS Filter Functions
+- File Handling
 - Real-Time UI Updates
-- Image Processing Techniques
 - Responsive UI Design
-- Client-Side Application Development
+- Client-Side Web Application Development
 
 ---
 
@@ -153,10 +154,10 @@ Upload an image, edit it, then download the final result.
 
 | Module | Status |
 |---------|--------|
-| Upload Image | ✅ Completed |
+| Image Upload | ✅ Completed |
 | Live Filters | ✅ Completed |
-| Download Image | ✅ Completed |
-| Reset Image | ✅ Completed |
+| Image Download | ✅ Completed |
+| Reset Changes | ✅ Completed |
 
 ---
 
